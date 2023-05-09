@@ -10,6 +10,7 @@ public class CompareOperatorExample {
 		
 		double v4 = 0.1;
 		float v5 = 0.1f;
+		//0.100000000149011612 float v5의 근사값
 		System.out.println(v4 == v5);
 		System.out.println((float)v4 == v5);
 		System.out.println((int)(v4*10) == (int)(v5*10));
